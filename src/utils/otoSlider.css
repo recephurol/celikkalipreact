@@ -1,0 +1,17 @@
+/* Slider container */
+.slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Maksimum genişlik */
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px; /* Kenarları yuvarlatmak için */
+  }
+  
+  /* Slider'daki fotoğraf */
+  .slider-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 1s ease-in-out;
+  }

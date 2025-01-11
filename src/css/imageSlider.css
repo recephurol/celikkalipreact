@@ -1,0 +1,62 @@
+/* Slider container */
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.slider {
+  display: flex;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.slider-image {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Butonlar */
+.prev-btn,
+.next-btn {
+  padding: 10px 15px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+/* Buton üzerine gelince renk değişimi */
+.prev-btn:hover,
+.next-btn:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  padding: 20px;
+  border-radius: 8px;
+}
+  

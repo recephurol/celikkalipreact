@@ -1,0 +1,44 @@
+.machine-table {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.machine-table table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 30px 10px;
+}
+
+.machine-table th, .machine-table td {
+    text-align: left;
+    padding: 8px;
+}
+
+.machine-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.machine-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+} 
+.urunler-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .urun-kart {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .urun-resim {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  } 
