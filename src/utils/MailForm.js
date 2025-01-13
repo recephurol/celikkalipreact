@@ -31,7 +31,6 @@ function MailForm() {
     
         emailjs.sendForm(serviceID, templateID, e.target, userID)
           .then((result) => {
-            console.log(result.text);
             setStatus('E-posta başarıyla gönderildi!');
             setFormData({
               user_name: '',
