@@ -16,7 +16,7 @@ const languages = {
 
 // LanguageProvider: Context'i sağlayan component
 export const LanguageProvider = ({ children }) => {
-  const savedLanguage = localStorage.getItem('language') || 'en';
+  const savedLanguage = localStorage.getItem('language') || 'tr';
   const [language, setLanguage] = useState(savedLanguage); // Varsayılan dil: İngilizce
 
   // Dil değiştirici fonksiyon

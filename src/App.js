@@ -19,7 +19,7 @@ function App() {
           <NavBar />
           <Container>
             <Routes>
-              <Route exact path="/" element={<Anasayfa />} />
+              <Route path="/" element={<Anasayfa />} />
               <Route path="/hakkinda" element={<Hakkimizda />} />
               <Route path="/urunler" element={<Urunler />} />
               <Route path="/referanslar" element={<Referanslar />} />
